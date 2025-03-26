@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="widht=device-width, initial-scale=1.0">
+	<title>register</title>
+</head>
+
+<body>
+	<div style="text-align: center; margin: 30q">
+		<form action="http://primat.se/services/sendform.aspx?xid=register&xmail=Jojo@skolan.se" method="post">
+			<label for="name">Ditt namn</label>
+			<input type="text" id="name" name="name"><br>
+
+			<label for="expectations">Dina förväntningar på konferansen?</label><br>
+			<textarea id="expectations" name"expectations" rows="5" cols="80"></textarea><br>
+
+			<p>Välj karakträr:</p>
+			<input type="radio" name="char" id="makima" value="makima">
+			<label for="makima">Makima</label><br>
+
+			<input type="radio" name="char" id="naruto" value="makima">
+			<label for="naruto">Naruto</label><br>
+
+			<input type="radio" name="char" id="toji" value="makima">
+			<label for="toji">Toji</label><br>
+
+			<input type="checkbox" name="newsletter" id="newsletter" value="true">
+			<input type="hidden" name="newsletter" value="false">
+			<label for="newsletter">Vill ha nyhetsbrev!</label><br>
+
+			<input type="date" name="registreringsdag" id="date"><br>
+
+			<label>Antal:</label>
+			<input type="number" name="antal" id="antal" min="1" max="10" step="1"><br>
+
+			<label>Färg:</label>
+			<input type="color" name="color" id="color"><br>
+
+			<input type="email" name="email" id="email" placeholder="Ange e-post"><br>
+
+			<label for="cars">Choose a car:</label>
+			<select id="cars" name="cars">
+				<option value="volvo">Volvo</option>
+				<option value="saab">Saab</option>
+				<option value="fiat">Fiat</option>
+				<option value="audi">Audi</option>
+			</select>
+
+			<br>
+			<input type="submit" value="Registrera dig"><br>
+		</form>
+	</div>
+</body>on value="audi">Audi</option>
+
+</html>
